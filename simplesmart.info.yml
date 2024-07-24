@@ -1,0 +1,20 @@
+name: Simple Smart Classy Version
+type: theme
+description: "Simple Smart theme"
+core_version_requirement: ^10
+core: 10.x
+#base theme: classy
+base theme: olivero
+screenshot: screenshot.png
+regions:
+  header: Header
+  simplesmartmenu: Navigation
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
+  # technical hidden regions:
+  page_top: Page top
+  page_bottom: Page bottom
+libraries:
+  - simplesmart/global-css
+  - simplesmart/pacifico
